@@ -20,6 +20,7 @@
 #include <mujoco/mjdata.h>
 #include <mujoco/mjmodel.h>
 #include <mujoco/mjtnum.h>
+#include <mujoco/mujoco.h>
 #include "engine/engine_collision_primitive.h"
 #include "engine/engine_io.h"
 #include "engine/engine_plugin.h"

@@ -16,6 +16,7 @@
 
 #include <mujoco/mjdata.h>
 #include <mujoco/mjmodel.h>
+#include <mujoco/mujoco.h>
 #include "engine/engine_core_constraint.h"
 #include "engine/engine_crossplatform.h"
 #include "engine/engine_io.h"

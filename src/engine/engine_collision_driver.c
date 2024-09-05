@@ -21,6 +21,7 @@
 #include <mujoco/mjdata.h>
 #include <mujoco/mjmacro.h>
 #include <mujoco/mjmodel.h>
+#include <mujoco/mujoco.h>
 #include "engine/engine_callback.h"
 #include "engine/engine_collision_convex.h"
 #include "engine/engine_collision_primitive.h"

@@ -26,6 +26,7 @@
 #include <mujoco/mjmacro.h>
 #include <mujoco/mjplugin.h>
 #include <mujoco/mjxmacro.h>
+#include <mujoco/mujoco.h>
 #include "engine/engine_crossplatform.h"
 #include "engine/engine_macro.h"
 #include "engine/engine_plugin.h"

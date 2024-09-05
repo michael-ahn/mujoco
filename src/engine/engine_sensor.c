@@ -19,6 +19,7 @@
 #include <mujoco/mjdata.h>
 #include <mujoco/mjmodel.h>
 #include <mujoco/mjplugin.h>
+#include <mujoco/mujoco.h>
 #include "engine/engine_callback.h"
 #include "engine/engine_core_smooth.h"
 #include "engine/engine_crossplatform.h"

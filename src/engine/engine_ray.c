@@ -22,6 +22,7 @@
 #include <mujoco/mjmacro.h>
 #include <mujoco/mjmodel.h>
 #include <mujoco/mjvisualize.h>
+#include <mujoco/mujoco.h>
 #include "engine/engine_io.h"
 #include "engine/engine_plugin.h"
 #include "engine/engine_util_blas.h"

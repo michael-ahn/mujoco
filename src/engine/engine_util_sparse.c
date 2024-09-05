@@ -19,6 +19,7 @@
 
 #include <mujoco/mjdata.h>
 #include <mujoco/mjtnum.h>
+#include <mujoco/mujoco.h>
 #include "engine/engine_io.h"
 #include "engine/engine_util_blas.h"
 #include "engine/engine_util_misc.h"

@@ -21,6 +21,7 @@
 #include <mujoco/mjexport.h>
 #include <mujoco/mjmodel.h>
 #include <mujoco/mjvisualize.h>
+#include <mujoco/mujoco.h>
 #include "engine/engine_core_smooth.h"
 #include "engine/engine_io.h"
 #include "engine/engine_ray.h"

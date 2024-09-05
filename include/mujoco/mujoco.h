@@ -1781,16 +1781,16 @@ MJAPI void mjs_defaultPlugin(mjsPlugin* plugin);
 
 void mj__markStack(mjData*) __attribute__((noinline));
 static inline void mj_markStack(mjData* d) __attribute__((always_inline)) {
-  asm volatile("" ::: "memory");
+  __asm__ volatile("" ::: "memory");
   mj__markStack(d);
-  asm volatile("" ::: "memory");
+  __asm__ volatile("" ::: "memory");
 }
 
 void mj__freeStack(mjData*) __attribute__((noinline));
 static inline void mj_freeStack(mjData* d) __attribute__((always_inline)) {
-  asm volatile("" ::: "memory");
+  __asm__ volatile("" ::: "memory");
   mj__freeStack(d);
-  asm volatile("" ::: "memory");
+  __asm__ volatile("" ::: "memory");
 }
 
 #endif  // ADDRESS_SANITIZER

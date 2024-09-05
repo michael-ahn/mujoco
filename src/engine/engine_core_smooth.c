@@ -1483,7 +1483,6 @@ void mj_solveLD(const mjModel* m, mjtNum* restrict x, int n,
         int j = dof_parentid[i];
 
         // traverse ancestors backwards
-        tmp = x[i+offset];
         while (j >= 0) {
           // process all vectors
           for (offset=0; offset < n*nv; offset+=nv) {
